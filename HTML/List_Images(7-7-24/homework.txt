@@ -1,0 +1,28 @@
+-> Continued
+
+Some Top Page Navigations like Home, Contact , About , Gallery
+
+Home Page -> Blogs
+Contact Page -> Will be coming soon
+About Page -> CV Page
+Gallery Page -> Some Random Images of anything atleast(10) 
+
+Each page must have top navigation 
+
+Portfolio -> Personel Image (500px by 500px)
+             Hobbies as a ordered nest List
+             ins , del tag must  be used
+
+Home Page -> Every Blog Should have an image and a button(Read More...)
+             Read More...-> when click browser should open a new tab and divert to the Blog
+
+At the end of each page there should be footer containing your dummy address and 
+Copyright 2024
+
+2) Another Task
+    Write 10 List Items in Ordered List and Expand each to unordered lists
+    hint: Nested List
+
+Disclaimer: 
+    1) Each Page or something confusing should have a short comment describing below functionality
+    2) Use all apporpriate tags like address tag for addressing, semantic tags
