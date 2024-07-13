@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+  <head></head>
+
+  <body>
+    <!-- Tables  -->
+    <table border="2">
+      <!-- Table Head -->
+      <thead>
+        <!-- Table Row -->
+        <tr>
+          <!-- Table Heading -->
+          <th>Sr#</th>
+          <th>Name</th>
+          <th>Designation</th>
+        </tr>
+      </thead>
+      <!-- Table Body -->
+      <tbody>
+        <!-- Table Row -->
+        <tr>
+          <!-- Table Data  -->
+          <td>1</td>
+          <td>Zeeshan Ali</td>
+          <td>Engineer</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td colspan="2">Asad</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td rowspan="2">Asad</td>
+          <td>MBBS</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Asad</td>
+          <td>MBBS</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td></td>
+          <td>Total</td>
+          <td>300</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Sr#</th>
+          <th>Items Count</th>
+          <th>Designation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>50</td>
+          <td>hh</td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>50</td>
+          <td>545</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>3000</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <!-- Forms Inputs -->
+
+    <input type="text" placeholder="Enter your name" />
+    <input type="password" placeholder="Enter your Password" />
+    <input type="date" />
+    <input type="datetime-local" />
+    <input type="email" />
+    <input type="file" />
+    <input type="checkbox" />
+    <input type="radio" />
+    <input type="month" />
+    <input type="number" />
+    <input type="range" />
+    <input type="tel" />
+    <input type="time" />
+    <input type="url" />
+    <input type="week" />
+
+    <!-- Contact US Form -->
+    <br />
+    <br />
+    <br />
+    <form>
+      <label for="name">Name:*</label>
+      <input type="text" name="name" id="name" required />
+      <br />
+
+      <label for="purpose">Purpose of Contact*</label>
+      <select name="purpose" id="" required>
+        <option value="">--Select Pupose--</option>
+        <option value="123">Meeting Request: It is to call the meeting</option>
+        <option value="124">Project Client</option>
+        <option value="125">Meetup</option>
+        <option value="126">MAO</option>
+      </select>
+
+      <textarea name="" id="" rows="10" cols="50"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

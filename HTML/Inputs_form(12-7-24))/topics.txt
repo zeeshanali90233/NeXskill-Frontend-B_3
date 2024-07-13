@@ -1,0 +1,12 @@
+Tables
+   -> thead 
+   -> tbody 
+        -> th 
+        -> td
+   -> tfoot
+
+
+All Type of Inputs
+
+Forms 
+    What are forms and How to use them
