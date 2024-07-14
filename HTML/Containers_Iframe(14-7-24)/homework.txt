@@ -1,0 +1,14 @@
+CV Site
+
+Task 1) Add Location Map
+        Add Escape Characters in Copywrite Section and Where it is needed
+
+
+Task 2) Containerize your CV or related pages, using div and sections
+
+Task 3) Add your relavant video in the introduction side
+        Add it's Audio also separately
+
+Task 4) Add all the relavant meta tags in your CV head
+
+Task 5) Deploy it on Netlify and submit the URL  
