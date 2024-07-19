@@ -1,0 +1,7 @@
+html -> link js
+
+take two inputs from the User
+
+ DMAS
+
+hint: typecasting string to number

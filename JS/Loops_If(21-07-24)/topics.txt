@@ -1,0 +1,17 @@
+
+ -     Variables
+    - Types of Variables
+    - let, var, const and Diff
+    - Conditional Statements
+    - Loops, for, while
+    - alerts
+
+    - Logical Operators
+    - Switch Statment 
+    - Array and it's functions
+     
+    - Functions 
+
+    Loops
+    -> for of -> array elements
+    -> for in -> keys/index

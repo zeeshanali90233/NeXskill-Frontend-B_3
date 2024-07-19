@@ -1,0 +1,10 @@
+JavaScript Intro
+JavaScript Variables
+JavaScript Console
+JavaScript User Dynamic Input using prompt 
+JavaScript Math Operations
+JavaScript DMAS 
+JavaScript * for multiply ....etc
+JavaScript Type Casting String To Number
+JS Prompts To Take Input from User(By Default Type String)
+In File Javascript and Console Javascript
