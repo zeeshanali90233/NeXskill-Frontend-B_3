@@ -1,7 +1,12 @@
-html -> link js
+Make a Website that takes User Info 
+dynamically from user and then print it
 
-take two inputs from the User
+HTML, In File JS
 
- DMAS
+Name
+age
+isMarried status like S for Sigle, M for Married, W for Widow
+DateofBirth -> String
 
-hint: typecasting string to number
+
+Must Use TypeCasting Here , Where Needed

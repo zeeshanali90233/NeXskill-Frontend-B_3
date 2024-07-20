@@ -1,7 +1,21 @@
-1) Make a age calculator by taking user birth year
+1) Make a Website that takes User Info 
+dynamically from user and then print it
+
+HTML, In File JS
+
+Name
+age
+isMarried status like S for Sigle, M for Married, W for Widow
+DateofBirth -> String
 
 
-2) Take a mathematical expression from user and calculate it and show the result
+Must Use TypeCasting Here , Where Needed
+
+
+2) Make a age calculator by taking user birth year
+
+
+3) Take a mathematical expression from user and calculate it and show the result
     hint: use Math.eval()
 
 

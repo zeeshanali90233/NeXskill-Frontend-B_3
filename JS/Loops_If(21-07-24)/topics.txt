@@ -1,5 +1,10 @@
 
  -     Variables
+   -Revisions
+         - Intro 
+         - Prompts
+         - DMAS
+ 
     - Types of Variables
     - let, var, const and Diff
     - Conditional Statements
