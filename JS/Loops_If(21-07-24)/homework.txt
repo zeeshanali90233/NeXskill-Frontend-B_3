@@ -1,22 +1,28 @@
-1) Make a Website that takes User Info 
-dynamically from user and then print it
 
-HTML, In File JS
+!!!!!Task 1
+ Create a prompt to ask the user's age
+2. Convert the response from the prompt to a number
+3. Declare a message variable that you will use to hold the console
+message for the user
+4. If the input age is equal to or greater than 21, set the message variable
+to confirm entry to a venue and the ability to purchase alcohol
+5. If the input age is equal to or greater than 19, set the message variable
+to confirm entry to the venue but deny the purchase of alcohol
+6. Provide a default else statement to set the message variable to deny
+entry if none are true
+7. Output the response message variable to the console
 
-Name
-age
-isMarried status like S for Sigle, M for Married, W for Widow
-DateofBirth -> String
 
-
-Must Use TypeCasting Here , Where Needed
-
-
+!!!!Task 2
 2) Make a age calculator by taking user birth year
 
-
+!!!Task 3
 3) Take a mathematical expression from user and calculate it and show the result
     hint: use Math.eval()
+
+
+!!!Task 4
+Deploy all the Homeworks and Assignments to Github
 
 
 Both should be deployed @ netlify 
