@@ -1,0 +1,13 @@
+
+
+    - Loops, for, while
+    - Switch Statment 
+    - functions
+    - Array and it's functions
+        - Length ,pop, push , concat, at , indexOf,shift , unshift, slice, splice(add krna), slice(remove krna)
+        - map, filter
+
+    Loops
+    -> for of -> array elements
+    -> for in -> keys/index
+

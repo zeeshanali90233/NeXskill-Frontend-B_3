@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    My HTMl
+
+    <script>
+      // Printing Command
+      console.log("Hello World");
+
+      myAge = 5; //Numeric
+      myFriendName = "Ali"; //String
+      isMarried = false; //boolean
+
+      // Naming Convention
+      // 1) Can't Start with numbers
+      // 2) No Special Characters
+      // 3)In Between , End Numbers
+      // 4)No Space between , underscore
+      my_age = 45;
+
+      console.log(my_age);
+
+      my_age = 22;
+      // console.log(my_age);
+
+      console.log((4 * 3) / 2);
+
+      equation = (4 * 3) / 2;
+
+      console.log(equation);
+
+      // Hard Coded Static Inputs
+      num1 = 5;
+      num2 = 2;
+
+      result = num1 * num2;
+      result1 = num1 + num2;
+      result2 = num1 - num2;
+      result3 = num1 / num2;
+      console.log(result);
+      console.log(result1);
+      console.log(result2);
+      console.log(result3);
+
+      // prompt
+      // User Dynamic Input
+      // num1 = prompt("Enter a number");
+      // num2 = prompt("Enter a 2nd number");
+
+      // // Type Casting
+      // num1 = Number(num1);
+      // num2 = Number(num2);
+
+      // console.log(typeof num1);
+
+      // result1 = num1 + num2;
+      // result2 = num1 - num2;
+      // result3 = num1 / num2;
+      // console.log(result);
+      // console.log(result1);
+      // console.log(result2);
+      // console.log(result3);
+
+      // Make the above calculator using Three User Dynamic Inputs
+
+      let myAge1;
+      // Hoisting In Var
+      console.log(myFriendAge);
+      var myFriendAge;
+
+      const PI = 3.14;
+
+      // If Staatements
+      if (PI < 4) {
+        console.log("Yes PI is Less than 4");
+      }
+
+      if (PI >= 3.14) {
+        let myNewAge = 22;
+        console.log(myNewAge);
+      }
+
+      name = "Ali";
+      let isEligible = false;
+      let age = prompt("Enter your age");
+
+      if (age >= 18) {
+        isEligible = true;
+        if (name == "Ali") {
+          console.log("Disable Him,");
+        }
+      } else if (age < 0) {
+        console.log("Error, Age can't be less than zero");
+      } else if (age < 18) {
+        console.log("You are not eligible");
+        alert("You are not eligible");
+      } else {
+        console.log("Unexpected Error comes ");
+      }
+
+      if (isEligible) {
+        console.log("Yes you are eligible");
+      }
+
+      // = for assignment
+      // == for comparison
+      // === strict comparison checking
+      // If name is not equals to ali
+      if (name != "Ali") {
+      }
+
+      // VVVVV IMP
+      // Logical Operators
+
+      // && and
+      // || or
+      // ! not
+
+      if (name == "Ali" && age >= 18) {
+        alert("Yes, You are ali and age>=18");
+      }
+      if ((name == "Ali" && age >= 18) || myFriendAge >= 18) {
+        alert("Yes, You are ali and age>=18");
+      }
+
+      if (name == "Ali" || age >= 18) {
+        alert("Yes  I am or one, You are ali and age>=18");
+      }
+
+      // Not
+
+      if (!(name === "Ali")) {
+        console.log(" I am not Ali");
+      }
+
+      if (age >= 22 && age < 60) {
+        // alert("You are not Retired Yet");
+        isEligible = false;
+      }
+    </script>
+  </body>
+</html>
