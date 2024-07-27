@@ -59,5 +59,5 @@ if (result === 7) {
 
 let equation = "2+2*7/(2)";
 
-let result1 = Math.eval(equation);
+let result1 = eval(equation);
 console.log(result1);

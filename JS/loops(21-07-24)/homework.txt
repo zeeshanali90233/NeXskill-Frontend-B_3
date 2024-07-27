@@ -1,0 +1,11 @@
+1) Ask user to Enter the start value and end value from the user 
+and print all the even and odd number in between them
+
+2) Ask user to enter the choice like 1 for Say Hello, 2 to take 2 numbers and add them
+   3 for say good bye , 4 for push in the array (user name : static or dynamic)
+   and for all other inputs, displays an alert that "Invalid Input"
+    Note: Use Switch Statement and Functions init
+
+3) Design an example of array push, pop, Length
+like run a loop from 1 to 50 , push each value to array 
+if array length >=20 break the loop

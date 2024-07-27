@@ -15,6 +15,10 @@
 // // 5<5 F
 for (let i = 0; i < numOfIter; i = i + 1) {
   console.log(myName);
+
+  if (i == 5) {
+    continue;
+  }
 }
 
 // While Loop
@@ -82,5 +86,3 @@ if (age == 18) {
 let name1 = "Ali";
 let name2 = "Zee";
 let name3 = "ZeeAl";
-
-
