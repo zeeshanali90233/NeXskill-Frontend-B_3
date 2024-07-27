@@ -53,4 +53,11 @@ function add(a, b) {
 let isEligible = checkEligibility(17);
 
 let result = add(2, 5);
-console.log(result);
+if (result === 7) {
+} else {
+}
+
+let equation = "2+2*7/(2)";
+
+let result1 = Math.eval(equation);
+console.log(result1);
