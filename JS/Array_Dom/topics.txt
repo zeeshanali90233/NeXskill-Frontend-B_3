@@ -1,0 +1,7 @@
+JS Array Functions
+
+
+DOM
+-> Element Getting
+-> Element Update Value, ClassName
+-> AppendChild
