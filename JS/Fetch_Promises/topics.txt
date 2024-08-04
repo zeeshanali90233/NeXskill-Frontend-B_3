@@ -1,0 +1,26 @@
+Promises 
+
+Error Handling
+
+Try Catch
+
+Concurrency -> Async Await 
+
+API 
+Fetching Methods
+Status Codes
+
+Fetch 
+
+Post API 
+
+Netlify , Site Live
+
+postId,postDescription
+
+Get : https://p2pclouds.up.railway.app/v1/learn/get_instagram_posts
+
+
+
+
+

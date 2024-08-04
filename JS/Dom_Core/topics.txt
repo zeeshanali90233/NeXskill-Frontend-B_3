@@ -1,0 +1,22 @@
+ Toggle Theme etc
+> event listeners
+
+classList.add
+classList.remove
+classList.toggle
+
+eventListeners
+
+changing styles through dom
+creating element and appending 
+
+
+
+Promises 
+
+Error Handling
+
+Try Catch
+
+Concurrency -> Async Await 
+

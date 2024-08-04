@@ -1,0 +1,17 @@
+Make an Weather app
+
+That Take the city name through input and 
+then call the API to get the current weather detail of that place
+
+Map the data that come from api , like temperature, wind speed to dom in a div
+
+API Detail: 
+URL: https://p2pclouds.up.railway.app/v1/learn/weather?city=karachi
+
+
+!!!Hint: Use Template Literal to make the link dynamic with city name
+
+`https://p2pclouds.up.railway.app/v1/learn/weather?city=${cityName}`
+
+If no data comes from api than show message that city not exist
+and show message "Error Occured" if city not found
