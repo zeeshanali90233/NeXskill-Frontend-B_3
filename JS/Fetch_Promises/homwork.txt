@@ -1,3 +1,13 @@
+1) If user mouse over on particular div more than 10 time show, him/her alert 
+that "You are anonymous user", when to show alert also change the 
+background color of browser screen to red.
+
+3) Make a Function , In which , it will prompt user to enter his/her name and then make
+promise to show it in 2 secs in dom means in html dynamically using dom
+
+Must Use Async Code, Async/Await in Function 
+
+
 Make an Weather app
 
 That Take the city name through input and 
