@@ -1,0 +1,2 @@
+1) Add Styling to The CV Task Given in HTML Classes
+2) Add Styling to Weather APPlication
