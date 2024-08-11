@@ -8,12 +8,8 @@ Pseudo Elements: before after
 Box Model:
 Border 
 
-Positioning
-
 Typography
 line-Height
 text-transform
-ketter spacing
+letter spacing
 
-
-Variables

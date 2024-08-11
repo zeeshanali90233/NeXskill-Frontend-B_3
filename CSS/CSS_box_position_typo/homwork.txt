@@ -1,0 +1,9 @@
+1) Make Same as in Image on Jon Ducket Book Page 316,312,311,310
+
+2) Make a Carousel in Your CV , having Backrgound Image : 
+URL: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_PBEuqzrHgaqDDE10tBWLply44DI4oYRHw&s 
+
+3) Make the top Navigation , that is already in your CV a click button 
+add hover effect on it
+
+The Button Should Like These:  

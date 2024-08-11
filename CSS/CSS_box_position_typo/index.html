@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .name {
+        margin-top: 10px;
+        margin-bottom: 50px;
+        box-sizing: border-box;
+        padding: 50px;
+
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRitS6XUAh0MRgcS46Lf7zNcPzUgbPILJ8NpQ&s");
+        background-repeat: no-repeat;
+        /* Contain Height Wise -> Adjust it */
+        /* Cover Widht Wise Stretch it */
+        background-size: cover;
+        border-color: black;
+        border-width: 50px;
+        border-style: ridge;
+
+        /* Short Hand Property  */
+        /* Width Style Color */
+        border: 2px solid black;
+      }
+      /* h1:nth-child(1) {
+        background-color: red;
+      } */
+
+      .learn {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+
+      /* .learn > h1 {
+        background-color: ;
+      } */
+      .learn > h1::after {
+        content: "";
+      }
+      .learn:hover::after {
+        content: "ALi";
+        width: 100px;
+        background-color: blueviolet;
+      }
+
+      .learn > h1:hover::after {
+        content: "ALi";
+        width: 100px;
+        background-color: blueviolet;
+      }
+
+      body > p::selection {
+        color: red;
+        background-color: green;
+      }
+
+      p {
+        /* Typography */
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        line-height: 20px;
+        text-transform: capitalize;
+      }
+
+      .btn {
+        width: 60px;
+        height: 30px;
+        padding: 5px;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .btn:hover {
+        background-color: #45fe;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a
+      href="https://search.yahoo.com/search?fr=mcafee&type=E210US91215G0&p=CSS+Nth+Child"
+      target="_blank"
+      class="GITHUB"
+      >Click Me</a
+    >
+    <a
+      href="https://search.yahoo.com/search?fr=mcafee&type=E210US91215G0&p=CSS+Nth+Child"
+      target="_blank"
+      class="github12"
+      >Click to
+    </a>
+
+    <button class="btn">Submit</button>
+    <button class="btn">Submit</button>
+    <button class="btn">Submit</button>
+    <button class="btn new">Submit</button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+      exercitationem aliquid pariatur soluta placeat et dignissimos reiciendis
+      impedit beatae, perferendis sunt inventore eius quia nisi sit vitae magni
+      asperiores voluptate?
+    </p>
+    <div class="learn">
+      <h1>Ali</h1>
+    </div>
+    <div class="name">
+      <h1>123</h1>
+      <h1>123</h1>
+      <h1>123</h1>
+      <h1>123</h1>
+    </div>
+    <div class="name">
+      <h1>123</h1>
+      <h1>123</h1>
+      <h1>123</h1>
+      <h1>123</h1>
+    </div>
+    <div class="name">
+      <h1>123</h1>
+      <h1>123</h1>
+      <h1>123</h1>
+      <h1>123</h1>
+    </div>
+  </body>
+</html>
