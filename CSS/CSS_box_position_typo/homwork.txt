@@ -1,9 +1,49 @@
+Attempt all the 6 Tasks, It contains the Most Weightage
+
 1) Make Same as in Image on Jon Ducket Book Page 316,312,311,310
 
 2) Make a Carousel in Your CV , having Backrgound Image : 
 URL: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_PBEuqzrHgaqDDE10tBWLply44DI4oYRHw&s 
 
-3) Make the top Navigation , that is already in your CV a click button 
+3) Make the top Navigation , that is already in your CV. A click button 
 add hover effect on it
 
-The Button Should Like These:  
+The Button Should Like These: https://getcssscan.com/css-buttons-examples
+
+4) Make an Changing Carousel
+Hint: 
+    1) Take 3, to 4 Carousel Image Either URL or Locally in the Folder
+    2) Link a JS File with the HTML, Make a function there with the name of "toggleCarousels" and call it in the JS File Openly
+    3) In the Toggle Carousels get the Div of Carousel using JS Dom , like  const carouselDiv=document.querySelector("#carouseldiv")
+    4) Change it's CSS Backgroud Image URL Property Dynamiclly , carouselDiv.style.backroundImage=`url("./carousel1.png")` etc
+    5) Next In the the Same Function Toggle Carousel make setTimeout that will recall itselt after each 5 seconds(5000) 
+    6) In the setTimeout past the above code of changing carousel
+
+    7) Save the Current Index of Carousel in an variables and save all Carousel Image URL in an Array Like
+    let imgs=["./imng.jpeg","./imng.jpeg","./imng.jpeg"]
+
+    8) In each set timeout call change the carousel image at this array index and then increment the index 
+    but add a check there that if the current index >=imgs Array lenght reset the currentIndex variable to Zero
+
+5) Add Styling to the Weather Application, All the CSS Concepts Pseudo Classes and Pseudo Elements Add that in the Weather Application
+
+6) Using All the API's We learnt and used in JS Api Classes
+    Get Instagram Posts: https://p2pclouds.up.railway.app/v1/learn/get_instagram_posts
+    Post: Tweet Save: https://p2pclouds.up.railway.app/v1/learn/tweet/save    { tweetImage, tweetDescription }
+    Delete Tweet Post: https://p2pclouds.up.railway.app/v1/learn/tweet/delete  tweetId
+    Update Tweet Post: https://p2pclouds.up.railway.app/v1/learn/tweet/update  { tweetId, tweetImage, tweetDescription }
+
+Using This Make an Application that will Show the Saved Tweets and There should be an Navigations Buttons to Post , Delete, Update Pages
+
+These Pages Should Contains That Specific Fields
+Like Post Page will have 
+
+    Form: 2 Inputs of Tweet Image URL, and Tweet Description and Save Button that will call the API and Save it
+
+In the Same Way Other Pages Will have Respective Filds and Buttons
+
+Notes: Each Page Should be Styled in a Good Sense of Humour 
+
+
+
+Take Help From these Color Pallets Site : https://colorhunt.co/
