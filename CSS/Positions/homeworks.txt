@@ -1,0 +1,38 @@
+Do All The Homeworks 
+
+1) Static Positioning
+
+Task: Create a simple webpage layout with a header, content area, and footer. Apply position: static; to all elements and observe how they follow the normal document flow.
+Objective: Understand the default positioning of elements.
+
+2) 
+Relative Positioning
+
+Task: Create a box within a container. Apply position: relative; to the box and shift it 20px down and 30px to the right using top and left properties.
+Objective: Learn how relative positioning shifts elements without affecting the layout of other elements.
+
+3) Absolute Positioning
+
+Task: Place a box inside a container. Apply position: absolute; to the box and align it to the bottom-right corner of the container.
+Objective: Practice how absolute positioning places elements relative to the nearest positioned ancestor.
+
+4) Fixed Positioning
+
+Task: Create a fixed navigation bar at the top of the page that remains visible when scrolling. Add some content below to test the scroll behavior.
+Objective: Understand how fixed positioning keeps elements fixed relative to the viewport.
+
+5) Sticky Positioning
+
+Task: Create a sidebar that sticks to the top of the viewport when scrolling past it. Use position: sticky; with appropriate top values.
+Objective: Learn how sticky positioning works and its use cases for creating sticky headers or sidebars.
+
+6) Task: Create a row of three equal-width boxes using Flexbox. Ensure they are evenly spaced with some gap between them.
+
+7) Task: Create a container with three vertically aligned boxes, centered within the container using Flexbox.
+
+8) Task: Create a simple 2x2 grid layout with four boxes. Ensure each box takes up equal space in the grid.
+
+9) Task: Create a responsive grid layout that changes from a 4-column layout on larger screens to a 2-column layout on smaller screens.
+Same As: https://miro.medium.com/v2/resize:fit:1400/0*C8W3aR9H66rcj7Ml
+
+10) Task: Create a simple webpage with a header, content, and footer. Use media queries to change the background color of the header and footer based on the screen width (e.g., change color at 768px and 1024px breakpoints).
