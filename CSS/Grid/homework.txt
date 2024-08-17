@@ -1,0 +1,4 @@
+
+9) Task: Create a responsive grid layout that changes from a 4-column layout on larger screens to a 2-column layout on smaller screens.
+Same As: https://miro.medium.com/v2/resize:fit:1400/0*C8W3aR9H66rcj7Ml
+

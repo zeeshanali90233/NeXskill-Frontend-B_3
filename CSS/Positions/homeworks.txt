@@ -32,7 +32,5 @@ Objective: Learn how sticky positioning works and its use cases for creating sti
 
 8) Task: Create a simple 2x2 grid layout with four boxes. Ensure each box takes up equal space in the grid.
 
-9) Task: Create a responsive grid layout that changes from a 4-column layout on larger screens to a 2-column layout on smaller screens.
-Same As: https://miro.medium.com/v2/resize:fit:1400/0*C8W3aR9H66rcj7Ml
 
-10) Task: Create a simple webpage with a header, content, and footer. Use media queries to change the background color of the header and footer based on the screen width (e.g., change color at 768px and 1024px breakpoints).
+9) Task: Create a simple webpage with a header, content, and footer. Use media queries to change the background color of the header and footer based on the screen width (e.g., change color at 768px and 1024px breakpoints).
