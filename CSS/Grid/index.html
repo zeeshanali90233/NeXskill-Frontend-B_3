@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Grid  -->
+    <div class="container">
+      <div class="header">
+        Header
+        <button
+          class="hamburger_icon sidebar_toggle_icons"
+          onclick="showSidebar()"
+        >
+          Show
+        </button>
+      </div>
+      <div class="sidebar">
+        Sidebar
+        <button class="cross_icon sidebar_toggle_icons" onclick="hideSidebar()">
+          Cross
+        </button>
+      </div>
+      <div class="main_content">Main</div>
+      <div class="footer">Footer</div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
