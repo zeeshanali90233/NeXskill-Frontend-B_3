@@ -1,0 +1,154 @@
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px 0px 0px 20px;
+  /* background-color: blue; */
+  animation-name: Spin;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  border-radius: 50%;
+  border-color: blue;
+  border-top: 2px;
+  border-left: 2px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+}
+
+.pulse {
+  width: 100px;
+  height: 100px;
+
+  border-color: blue;
+  border-top: 10px;
+  border-left: 10px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+
+  border-radius: 50%;
+  animation: Pulse 2s linear 0s infinite;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  animation: fadeInLeftBig 1s 1 both;
+  position: relative;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  z-index: 50;
+  border-radius: 50%;
+  top: -2px;
+  right: 0%;
+  /* left: 50%; */
+  transform: translate(2%, 0%);
+
+  scale: 0%;
+  opacity: 0.5;
+  transition: all 0.5s linear;
+}
+
+.btn:hover::after {
+  scale: 100%;
+}
+/* Color Animation */
+@keyframes Color {
+  from {
+    background-color: red;
+  }
+
+  to {
+    background-color: black;
+  }
+}
+
+@keyframes Spin {
+  from {
+    rotate: 360deg;
+  }
+
+  to {
+    rotate: 0deg;
+  }
+}
+
+@keyframes Pulse {
+  0% {
+    scale: 50%;
+    rotate: 0deg;
+  }
+
+  50% {
+    scale: 100%;
+    rotate: 360deg;
+  }
+  100% {
+    scale: 50%;
+    rotate: 0deg;
+  }
+}
+
+@keyframes swing-top-fwd {
+  0% {
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+  100% {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+}
+
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* OOCSS */
+.primary {
+  background-color: blue;
+}
+.div1 {
+  width: 100%;
+}
+.div2 {
+  width: 100%;
+}
+
+
+.primary{
+
+}
+
+.secondary{
+
+}
+
+
+
+.mt-1{
+    
+}
